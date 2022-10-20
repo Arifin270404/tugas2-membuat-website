@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar Membuat Form</title>
+        <style>
+            body{
+                background-image:url(background5.jpg) ;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                height: 100%;
+            }
+            .title{
+                text-align: center;
+                font-size: 2.5em;
+                color: aquamarine;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 align="center">
+        nama: <input type="text" name="Nama" value="NAMA LENGKAP"/>
+        <br/>
+        <br>
+        password: <input type="password" name="Password"/>
+        <br/>
+        <br>
+        jenis kelamin:
+        <input type="radio" name="Jenis_Kelamin" value="LAKI-LAKI" checked/>
+        LAKI-LAKI
+        <input type="radio" name="Jenis_Kelamin" value="PEREMPUAN"/>
+        PEREMPUAN
+        <br />
+        <br>
+        Hobi: <input type="checkbox" name="Hobi_Baca"/> Membaca Buku
+        <input type="checkbox" name="Hobi_BermainGame"/> BermainGame
+        <input type="checkbox" name="Hobi_Berenang"/> Berenang
+        <br />
+        <br>
+        Asal Kota:
+        <select name="Asal_Kota" >
+            <option value="Kota Jakarta"> Jakarta</option>
+            <option value="Kota Malang"> Malang</option>
+            <option value="Kota Bekasi" selected>Bekasi</option>
+            <option value="Kota Bogor"> Bogor</option>
+            <option value="Kota Semarang"> Semarang</option>
+            <option value="Kota Bandung"> Bandung</option>
+            <option value="Kota Majalengka"> Majalengka</option>
+            <option value="Kota Batu"> Batu</option>
+            </select>
+            <br />
+            <br>
+            Alamat Lengkap
+            <textarea name="Alamat" rows="S" cols="20"></textarea>
+            <br />
+            <br>
+            Komentar Anda:
+            <textarea name="Komentar" rows="S" cols="20">
+                Masukkan Komentar Anda
+            </textarea>
+            <br />
+            <input type="submit" value="GASKEUN!!"/>
+            </h2>
+    </body>
+    </html>
